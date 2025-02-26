@@ -1,7 +1,3 @@
-Aqui está uma descrição para seu repositório no GitHub:  
-
----  
-
 # 🌐 Landing Page Responsiva  
 
 Uma **Landing Page Responsiva** criada com **HTML, CSS**, inspirada na Trilha de CSS da DIO. O projeto apresenta um design moderno e interativo, adaptável para diferentes dispositivos.  
