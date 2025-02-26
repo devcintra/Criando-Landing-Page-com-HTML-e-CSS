@@ -11,6 +11,6 @@ Uma **Landing Page Responsiva** criada com **HTML, CSS**, inspirada na Trilha de
 ✅ Botão  
 ✅ Estrutura otimizada para aprendizado  
 
-🔗 **[https://devcintra.github.io/Criando-Landing-Page-com-HTML-e-CSS/](#)** (substituir pelo link real)  
+🔗 **[https://devcintra.github.io/Criando-Landing-Page-com-HTML-e-CSS/](#)**
 
 Sinta-se à vontade para contribuir ou utilizar como referência! 😃✨
