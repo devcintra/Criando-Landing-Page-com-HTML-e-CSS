@@ -1,0 +1,213 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, hsl(198, 70%, 53%), hsl(198, 91%, 77%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Contêiner de fundo (se precisar de algum estilo extra) */
+.container-fundo {
+  background-color: #0d1b2a;
+  border-bottom: 2px solid hsl(198, 70%, 53%);
+}
+
+/* Banner com imagem de fundo + gradiente */
+.banner {
+  /* Altura desejada para o banner */
+  height: 60vh;
+  width: 100%;
+
+  /* Define a imagem de fundo + gradiente */
+  background: linear-gradient(to bottom, rgba(32, 2, 202, 0.63), rgb(2, 2, 2)),
+    url("assets/images/banner.png") no-repeat center/cover;
+
+  /* Flexbox para centralizar vertical e horizontal */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Agrupamento da logo, título, texto, botão */
+.logo {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Imagem da logo */
+.logo-img {
+  display: block;
+  margin: 0 auto 25px;
+  background-color: #0d1b2a57;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* Título (h1) */
+.logo h1 {
+  color: hsl(198, 70%, 53%);
+  text-transform: uppercase;
+  font-size: 2.3em;
+  font-weight: 700;
+  margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
+/* Parágrafo */
+.logo p {
+  color: #fff;
+  font-size: 1.4em;
+  line-height: 1.4;
+  max-width: 570px;
+  margin: 0 auto 30px; /* Espaçamento abaixo */
+}
+
+/* Botão */
+.logo button {
+  background: transparent;
+  color: hsl(198, 70%, 53%);
+  padding: 15px 60px;
+  border: 3px solid hsl(198, 70%, 53%);
+  font-size: 1.3em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.logo button:hover {
+  background: hsl(198, 70%, 53%);
+  color: #fff;
+}
+
+/* Conteúdo adicional fora do banner */
+
+.conteudo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; /* Centraliza texto */
+  padding: 80px;
+  border-bottom: 2px solid hsl(198, 70%, 53%);
+}
+
+.conteudo-principal h1 {
+  color: hsl(198, 70%, 53%);
+  text-transform: uppercase;
+  font-size: 2.3em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin: 100px 0 30px;
+}
+
+.conteudo-principal p {
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 220px;
+  max-width: 900px;
+  margin: 2px 5px 15px 5px;
+  line-height: 1.5;
+}
+
+.conteudo-principal button {
+  margin: 15px;
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 10px 37px;
+  border: 1px solid hsl(198, 70%, 53%);
+  border-radius: 50px;
+  font-size: 1.2em;
+  font-weight: 700;
+  cursor: pointer;
+  width: 600px;
+  height: 50px;
+  margin: 15px;
+}
+
+span {
+  padding: 3px;
+  color: hsl(198, 70%, 53%);
+}
+
+.conteudo-secundario {
+  position: relative;
+  background-image: url("assets/images/woman-code.png");
+  background-size: cover; /* Faz a imagem cobrir a seção */
+  background-position: center;
+  background-attachment: fixed; /* Fixa a imagem na tela */
+  height: 50vh;
+  width: 100%;
+  border-bottom: 2px solid hsl(198, 70%, 53%);
+}
+
+.conteudo-secundario h1 {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 3em;
+  max-width: 280px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 5px rgb(65, 62, 238), -2px -2px 5px rgb(255, 255, 255);
+  text-align: center;
+}
+
+#professional-challenges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 2px solid hsl(198, 70%, 53%);
+    padding: 90px;
+}
+
+#professional-challenges h2 {
+   color: hsl(198, 70%, 53%);
+   margin: 50px;
+   font-size: 3rem;
+   max-width: 800px;
+}
+
+#professional-challenges p{
+    color: #fff;
+    font-size: 1.2em;
+    margin: 20px;
+    max-width: 900px;
+    line-height: 1.5;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;  
+}
+
+footer p{
+    color: #fff;
+    font-size: 1.2em;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+footer a{
+    color: hsl(198, 70%, 53%);
+    text-decoration: none;
+    font-weight: 700;
+}
